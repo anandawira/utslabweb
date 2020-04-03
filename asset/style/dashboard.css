@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#jumbotron{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+#jumbotron i,
+#jumbotron h1 {
+    margin: 5px;
+}
+
+#jumbotron h1{
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    flex-grow: 0;
+}
+
+#content{
+    flex-grow: 4;
+}
+
+#navlinks{
+    background-color: aliceblue;
+}
+
+#navlinks p{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: aquamarine;
+    color: black;
+}
+
+#navlinks a{
+    text-decoration: none;
+}
+
+#navlinks p:hover{
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: beige;
+}

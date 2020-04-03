@@ -1,0 +1,12 @@
+#tableMovie table th{
+    background-color: bisque;
+    padding: 5px;
+}
+
+#tableMovie table td{
+    padding: 5px;
+}
+
+#tableMovie{
+    margin-left: 20px;
+}
